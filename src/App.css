@@ -1,0 +1,38 @@
+.main-container {
+  background-color: #1a1a1a;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.drum-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+  row-gap: 5px;
+}
+
+.drum-pad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  color: #1a1a1a;
+  background-color: orchid;
+  border-radius: 10px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.display-text {
+  margin-top: 20px;
+}
+
+.display-text>h4 {
+  color: antiquewhite;
+}
